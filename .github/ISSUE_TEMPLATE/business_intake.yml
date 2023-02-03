@@ -1,6 +1,6 @@
 name: 📋 Business Intake
 description: Initial tombstone intake (non-technical)
-title: "[BI]: "
+title: "[BI]: Replace with intake title"
 labels: ["Type: BusinessIntake"]
 body:
   - type: markdown
