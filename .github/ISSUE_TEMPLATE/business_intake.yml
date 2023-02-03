@@ -8,7 +8,11 @@ body:
       value: |
         Thanks for taking the time to fill out this intake form.  This allows us to gather initial tombstone data for an intake.  When we progress to a technical implementation/delivery step, a secondary technical form may need to be filled out.
         
-        ![blah](../blob/main/images/BusinessIntake.png)
+        Relative image accounting for "issues" path
+        ![relative img](../blob/main/images/BusinessIntake.png)
+
+        Another image test with static path
+        ![static img](https://github.com/PHACDataHub/project-intake/blob/main/images/BusinessIntake.png)
   - type: input
     id: requestorname
     attributes:
