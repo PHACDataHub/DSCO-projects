@@ -7,8 +7,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this intake form.  This allows us to gather initial tombstone data for an intake.  When we progress to a technical implementation/delivery step, a secondary technical form may need to be filled out.
-        # [[https://github.com/PHACDataHub/project-intake/blob/master/images/BusinessIntake.png|Business Intake Flowchart]]
-        ![](../blob/master/images/BusinessIntake.png)
+        
+        ![blah](../blob/master/images/BusinessIntake.png)
   - type: input
     id: requestorname
     attributes:
