@@ -1,0 +1,145 @@
+name: 📋 Business Intake
+description: Initial tombstone intake (non-technical)
+title: "[BI]: "
+labels: ["Type: BusinessIntake"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this intake form.  This allows us to gather initial tombstone data for an intake.  When we progress to a technical implementation/delivery step, a secondary technical form may need to be filled out.
+  - type: input
+    id: requestorname
+    attributes:
+      label: Requestor Email
+      description: Email of person initiating this request
+      placeholder: ex. email@phac-aspc.gc.ca
+    validations:
+      required: false
+  - type: dropdown
+    id: requestorbranch
+    attributes:
+      label: Requestor Branch
+      description: Branch level acceptable?  More granular needed?
+      multiple: false
+      options:
+        - DMIA
+        - Branch A
+        - Branch B
+        - Branch C
+  - type: input
+    id: one-line-summary
+    attributes:
+      label: Summary
+      description: Please provide a one-line summary of your request
+      placeholder: ex. I need Google resources to transform data using Python
+    validations:
+      required: false
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailed Description
+      description: Please provide a detailed description of your request.
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: textarea
+    id: request-purpose
+    attributes:
+      label: Request Purpose
+      description: What is the problem you are trying to solve?
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired Outcome
+      description: What are you expecting?
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: textarea
+    id: business-intake-risks
+    attributes:
+      label: Risks
+      description: What are the risks of not getting this service?
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: textarea
+    id: business-intake-dependencies
+    attributes:
+      label: Dependencies
+      description: Is what you are asking for dependent on other services?
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: input
+    id: associated-intake-id
+    attributes:
+      label: Associated Intake ID
+      description: Please provide the associated intake ID if there is one.
+      placeholder: ex. 123456
+    validations:
+      required: false
+  - type: input
+    id: associated-funding-source
+    attributes:
+      label: Associated Funding Source
+      description: Please provide a cost centre to associate to your resources in the cloud
+      placeholder: ex. 123456
+    validations:
+      required: false
+  - type: textarea
+    id: business-intake-stakeholders
+    attributes:
+      label: Stakeholders
+      description: Please list any additional stakeholders involved with this request.
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: dropdown
+    id: business-intake-request-priority
+    attributes:
+      label: Priority
+      description: What is the priority of your request?
+      options:
+        - Critical
+        - High
+        - Normal
+        - Low
+    validations:
+      required: true
+  - type: input
+    id: business-intake-response-date
+    attributes:
+      label: Response Date
+      description: When would you like a response by?
+      placeholder: ex. yyyy-mm-dd
+    validations:
+      required: false
+  - type: dropdown
+    id: csp-preference
+    attributes:
+      label: What is your preferred cloud provider?
+      multiple: true
+      options:
+        - No preference
+        - Microsoft Azure
+        - Amazon Web Services
+        - Google Cloud Platform
+        - None of the above (see next question)
+  - type: input
+    id: csp-custom
+    attributes:
+      label: Other Cloud Provider
+      description: Leave blank if you picked a provider above
+      placeholder: ex. Tencent Cloud
+    validations:
+      required: false
