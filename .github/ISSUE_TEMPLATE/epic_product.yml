@@ -15,14 +15,6 @@ body:
       placeholder: ex, FirstName LastName
     validations:
       required: true
-  - type: input
-    id: one-line-summary
-    attributes:
-      label: Summary
-      description: Please provide a one-line summary of your project
-      placeholder: Insert value proposition here
-    validations:
-      required: false
   - type: dropdown
     id: milestone
     attributes:
@@ -30,7 +22,6 @@ body:
       description: What milestone will this product help advance or be an output from?
       multiple: false
       options:
-        - Select one
         - M1 - Establish a governance Secretariat
         - M2 - Publish whitepaper / position paper
         - M3 - Engage Digital ID Lab and Digital Governance Council
@@ -42,6 +33,14 @@ body:
         - M9 - Deliver data mesh recommendations
         - M10 - Provide PHAC-designed production-ready data analytics capabilities
         - N/A
+  - type: input
+    id: desired-outcome-summary
+    attributes:
+      label: Desired Outcome Summary
+      description: In one line, what are you expecting/hoping that the outcome of this product will be?
+      placeholder: Longer description here.
+    validations:
+      required: true
   - type: textarea
     id: detailed-description
     attributes:
@@ -49,15 +48,6 @@ body:
       description: Please provide some more detail to the description of the product.
       placeholder: Longer description here.
       value: "Lets get some more details!"
-    validations:
-      required: true
-  - type: textarea
-    id: desired-outcome
-    attributes:
-      label: Desired Outcome
-      description: What are you expecting?
-      placeholder: Longer description here.
-      value: "What the what?"
     validations:
       required: true
   - type: textarea
@@ -69,7 +59,7 @@ body:
       value: "- [ ] <insert basic function here>"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: business-intake-dependencies
     attributes:
       label: Dependencies
