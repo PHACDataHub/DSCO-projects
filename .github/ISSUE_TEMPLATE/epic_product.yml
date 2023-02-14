@@ -54,8 +54,7 @@ body:
     attributes:
       label: 📋 Detailed Description
       description: Please provide some more detail to the description of the product.
-      placeholder: Longer description here.
-      value: "Lets get some more details!"
+      placeholder: Lets get some more details! Give us a longer description here.
     validations:
       required: true
   - type: textarea
@@ -63,10 +62,9 @@ body:
     attributes:
       label: ✔️ Feature List
       description: What are some basic functions that this product will need?
-      placeholder: Create a list of checkboxes; - [ ] Some text here
+      placeholder: Create a list of checkboxes, in the following format; - [ ] Some text here
       value: |
-        Create a checklist of proposed features/functions using the following format
-        - [ ] <insert basic function here>
+        - [ ] <insert some required function/feature of the product here>
     validations:
       required: true
   - type: input
