@@ -8,17 +8,17 @@ body:
       value: |
         This is meant to create a loosely structured space to jot down some ideas/deliverables for a project that you would like the team to work on to advance a milestone.
   - type: input
-    id: creater-name
+    id: suggester-name
     attributes:
-      label: Requestor Name
-      description: Any and all projects deserve some credit so let us know who thought of it! 😊
+      label: 👱 Suggester Name
+      description: Any and all projects deserve some credit so let us know who thought of it!
       placeholder: ex, FirstName LastName
     validations:
       required: true
   - type: dropdown
     id: milestone
     attributes:
-      label: Milestone Selection
+      label: 🎯 Milestone
       description: What milestone will this product help advance or be an output from?
       multiple: false
       options:
@@ -61,7 +61,7 @@ body:
   - type: textarea
     id: proposed-features
     attributes:
-      label: Feature Description
+      label: ✔️ Feature List
       description: What are some basic functions that this product will need?
       placeholder: Create a list of checkboxes; - [ ] Some text here
       value: |
@@ -72,7 +72,7 @@ body:
   - type: input
     id: business-intake-dependencies
     attributes:
-      label: Dependencies
+      label: ⛔ Dependencies
       description: Is there an issue that needs to be completed before this can start? Inset the URL link to the issue below.
       placeholder: https//github.com/PHACDataHub/project-intake/issues/<number>
     validations:
