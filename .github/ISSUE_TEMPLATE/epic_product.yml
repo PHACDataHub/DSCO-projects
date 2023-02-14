@@ -1,0 +1,97 @@
+name: 🚀 Epic Product
+description: Very general information regarding a potential product that would advance a milestone and be an output after completing it.
+title: "[EPIC]: <insert product name>"
+labels: ["Type: EPIC"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is meant to create a loosely structured space to jot down some ideas/deliverables for a project that you would like the team to work on to advance a milestone.
+  - type: input
+    id: creater-name
+    attributes:
+      label: Requestor Name
+      description: Any and all projects deserve some credit so let us know who thought of it! 😊
+      placeholder: ex: FirstName LastName
+    validations:
+      required: true
+  - type: input
+    id: one-line-summary
+    attributes:
+      label: Summary
+      description: Please provide a one-line summary of your project
+      placeholder: ex. 
+    validations:
+      required: false
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Milestone Selection
+      description: What milestone will this product help advance or be an output from?
+      multiple: false
+      options:
+        - Select one
+        - M1 - Establish a governance Secretariat
+        - M2 - Publish whitepaper / position paper
+        - M3 - Engage Digital ID Lab and Digital Governance Council
+        - M4 - Develop a Cloud Adoption Framework
+        - M5 - Deploy an interoperability (API) platform
+        - M6 - Define a technology engagement framework
+        - M7 - Implementation of an identity-based (Zero-Trust) security model
+        - M8 -Deploy PBMM-ready Cloud Infrastructure for Public Health Intelligence (CIPHI)
+        - M9 - Deliver data mesh recommendations
+        - M10 - Provide PHAC-designed production-ready data analytics capabilities
+        - N/A
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailed Description
+      description: Please provide some more detail to the description of the product.
+      placeholder: Longer description here.
+      value: "Lets get some more details!"
+    validations:
+      required: true
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired Outcome
+      description: What are you expecting?
+      placeholder: Longer description here.
+      value: "What the what?"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-features
+    attributes:
+      label: Detailed Description
+      description: What are some basic functions that this product will need?
+      placeholder: Create a list of checkboxes, ex: - [ ] Some text here
+      value: "- [ ] <insert basic function here>"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-features-test
+    attributes:
+      label: Detailed Description
+      description: What are some basic functions that this product will need?
+      placeholder: Create a list of checkboxes, ex: - [ ] Some text here
+      value: "- [ ] <insert basic function here>"
+    validations:
+      required: true
+  - type: textarea
+    id: business-intake-dependencies
+    attributes:
+      label: Dependencies
+      description: Is there an issue that needs to be completed before this can start?
+      placeholder: Inset the issue number like: /#<number>, where number is in the URL of the issue as in https://github.com/PHACDataHub/project-intake/issues/<number>
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: 
+        type: textarea
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: false
