@@ -12,7 +12,7 @@ body:
     attributes:
       label: Requestor Name
       description: Any and all projects deserve some credit so let us know who thought of it! 😊
-      placeholder: ex/: FirstName LastName
+      placeholder: ex, FirstName LastName
     validations:
       required: true
   - type: input
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Summary
       description: Please provide a one-line summary of your project
-      placeholder: ex. 
+      placeholder: Insert value proposition here
     validations:
       required: false
   - type: dropdown
@@ -65,27 +65,10 @@ body:
     attributes:
       label: Detailed Description
       description: What are some basic functions that this product will need?
-      placeholder: Create a list of checkboxes, ex: - [ ] Some text here
+      placeholder: Create a list of checkboxes; - [ ] Some text here
       value: "- [ ] <insert basic function here>"
     validations:
       required: true
-  - type: textarea
-    id: proposed-features-test
-    attributes:
-      label: Detailed Description
-      description: What are some basic functions that this product will need?
-      placeholder: Create a list of checkboxes, ex: - [ ] Some text here
-      value: "- [ ] <insert basic function here>"
-    validations:
-      required: true
-  - type: textarea
-    id: business-intake-dependencies
-    attributes:
-      label: Dependencies
-      description: Is there an issue that needs to be completed before this can start?
-      placeholder: Inset the issue number like: /#<number>, where number is in the URL of the issue as in https://github.com/PHACDataHub/project-intake/issues/<number>
-    validations:
-      required: false
   - type: checkboxes
     id: terms
     attributes:
@@ -95,3 +78,11 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: false
+  - type: textarea
+    id: business-intake-dependencies
+    attributes:
+      label: Dependencies
+      description: Is there an issue that needs to be completed before this can start?
+      placeholder: Inset the issue number like: /#<number>, where number is in the URL of the issue as in https://github.com/PHACDataHub/project-intake/issues/<number>
+    validations:
+      required: false
