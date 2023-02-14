@@ -83,6 +83,6 @@ body:
     attributes:
       label: Dependencies
       description: Is there an issue that needs to be completed before this can start?
-      placeholder: Inset the issue number like: /#<number>, where number is in the URL of the issue as in https://github.com/PHACDataHub/project-intake/issues/<number>
+      placeholder: Inset the issue number; /#<number>, where number is in the URL of the issue as in github.com/PHACDataHub/project-intake/issues/<number>
     validations:
       required: false
