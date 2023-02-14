@@ -12,7 +12,7 @@ body:
     attributes:
       label: Requestor Name
       description: Any and all projects deserve some credit so let us know who thought of it! 😊
-      placeholder: ex: FirstName LastName
+      placeholder: ex/: FirstName LastName
     validations:
       required: true
   - type: input
