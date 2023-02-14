@@ -29,16 +29,24 @@ body:
         - M5 - Deploy an interoperability (API) platform
         - M6 - Define a technology engagement framework
         - M7 - Implementation of an identity-based (Zero-Trust) security model
-        - M8 -Deploy PBMM-ready Cloud Infrastructure for Public Health Intelligence (CIPHI)
+        - M8 - Deploy PBMM-ready Cloud Infrastructure for Public Health Intelligence (CIPHI)
         - M9 - Deliver data mesh recommendations
         - M10 - Provide PHAC-designed production-ready data analytics capabilities
         - N/A
   - type: input
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: In ONE LINE, what is the issue/question that this product is aiming to solve?
+      placeholder: Insert problem statement here.
+    validations:
+      required: true
+  - type: input
     id: desired-outcome-summary
     attributes:
       label: Desired Outcome Summary
-      description: In one line, what are you expecting/hoping that the outcome of this product will be?
-      placeholder: Longer description here.
+      description: In ONE LINE, what are you expecting/hoping that the outcome of this product will be?
+      placeholder: Insert value proposition here.
     validations:
       required: true
   - type: textarea
@@ -56,7 +64,9 @@ body:
       label: Detailed Description
       description: What are some basic functions that this product will need?
       placeholder: Create a list of checkboxes; - [ ] Some text here
-      value: "- [ ] <insert basic function here>"
+      value: |
+        Create a checklist of proposed features/functions using the following format
+        - [ ] <insert basic function here>
     validations:
       required: true
   - type: input
