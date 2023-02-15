@@ -33,6 +33,8 @@ body:
         - M9 - Deliver data mesh recommendations
         - M10 - Provide PHAC-designed production-ready data analytics capabilities
         - N/A
+    validations:
+      required: true
   - type: input
     id: problem-statement
     attributes:
