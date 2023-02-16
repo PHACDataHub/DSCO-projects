@@ -1,7 +1,7 @@
 # 👀 Where should I look first to find more information about GitHub, Issues, and the EPIC issue form?
 This is the main Wiki page and will likley answer most of your questions: 
 
-> https://github.com/PHACDataHub/project-intake/wiki/%F0%9F%93%9D-TELLME:-About-filling-out-the-Issue-form-template-for-an-Epic-Product
+> https://github.com/PHACDataHub/project-intake/wiki/%F0%9F%93%9D-HOWTO:-Fill-out-the-Issue-form-template-for-an-Epic-Product
 
 If you're wondering why this work is important or how it might impact you, please see the following announcement discussion link: 
 
