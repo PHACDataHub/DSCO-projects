@@ -1,6 +1,6 @@
 name: 🚀 Epic Product
 description: Very general information regarding a potential product that would advance a milestone and be an output after completing it.
-title: "[EPIC]: <insert product name>"
+title: "[EPIC] - <insert product name>"
 labels: ["Type: Epic"]
 body:
   - type: markdown
@@ -64,9 +64,9 @@ body:
     attributes:
       label: ✔️ Feature List
       description: What are some basic functions that this product will need?
-      placeholder: Create a list of checkboxes, in the following format; - [ ] [FEAT]: Some text here
+      placeholder: Create a list of checkboxes, in the following format; - [ ] [FEAT] - Some text here
       value: |
-        - [ ] [FEAT]: <insert some required function/feature of the product here>
+        - [ ] [FEAT] - <insert some required function/feature of the product here>
     validations:
       required: true
   - type: input
