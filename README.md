@@ -18,7 +18,7 @@ Example of a completed **Business** form:
 
 # 📚 Where can I see all currently active issues?
 You can find all of these on the issues tab or follow the link below
-> [.../project-intake/issues](https://github.com/PHACDataHub/project-intake/issues)
+> [.../DSCO-projects/issues](https://github.com/PHACDataHub/project-intake/issues)
 
 # 💬 Where can I suggest or ask something about all this stuff?
 I want to suggest a new idea or improvement:
@@ -33,4 +33,4 @@ If you could please partake in the following polls, that would be greatly apprec
 
 
 ## You can find all the discussion sections on the discussions tab or by following this link:
-> [.../project-intake/discussions](https://github.com/PHACDataHub/project-intake/discussions)
+> [.../DSCO-projects/discussions](https://github.com/PHACDataHub/project-intake/discussions)
