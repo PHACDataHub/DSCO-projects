@@ -8,9 +8,9 @@ body:
       value: |
         This is meant to create a loosely structured space to jot down some ideas/deliverables for a project that you would like the team to work on to advance a milestone.
   - type: input
-    id: suggester-name
+    id: business-client
     attributes:
-      label: 👱 Suggester Name
+      label: 👱 Business Client
       description: Any and all projects deserve some credit so let us know who thought of it!
       placeholder: ex, FirstName LastName
     validations:
@@ -36,27 +36,43 @@ body:
     validations:
       required: true
   - type: input
-    id: problem-statement
+    id: start-date
     attributes:
-      label: ❓ Problem Statement
-      description: In ONE LINE, what is the issue/question that this product is aiming to solve?
-      placeholder: Insert problem statement here.
+      label: 🟢 Start Date (expected)
+      description: Optional field to store what the expected start date is
+      placeholder: dd-mm-yyyy
     validations:
-      required: true
+      required: false
   - type: input
-    id: desired-outcome-summary
+    id: end-date
     attributes:
-      label: 🎉Desired Outcome Summary
-      description: In ONE LINE, what are you expecting/hoping that the outcome of this product will be?
-      placeholder: Insert value proposition here.
+      label: 🔴 End Date (expected)
+      description: Optional field to store what the expected end date is
+      placeholder: dd-mm-yyyy
     validations:
-      required: true
+      required: false
   - type: textarea
     id: detailed-description
     attributes:
       label: 📋 Detailed Description
       description: Please provide some more detail to the description of the product.
       placeholder: Lets get some more details! Give us a longer description here.
+    validations:
+      required: true
+  - type: textarea
+    id: tangible-outcomes
+    attributes:
+      label: ⚒️ Tangible Outcomes
+      description: Please list some tangible outcomes of this project
+      placeholder: (ex: a new platform, new configuration, new document, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: intangible-outcomes
+    attributes:
+      label: 👨‍💻 Intangible Uutcomes
+      description: Please list some intangible outcomes of this project
+      placeholder: (ex: lessons learned, experience to the team, engagement opprotunities, etc.)
     validations:
       required: true
   - type: textarea
