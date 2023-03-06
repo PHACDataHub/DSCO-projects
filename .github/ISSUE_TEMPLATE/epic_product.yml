@@ -64,7 +64,7 @@ body:
     attributes:
       label: ⚒️ Tangible Outcomes
       description: Please list some tangible outcomes of this project
-      placeholder: (ex: a new platform, new configuration, new document, etc.)
+      placeholder: (ex; a new platform, new configuration, new document, etc.)
     validations:
       required: true
   - type: textarea
@@ -72,7 +72,7 @@ body:
     attributes:
       label: 👨‍💻 Intangible Uutcomes
       description: Please list some intangible outcomes of this project
-      placeholder: (ex: lessons learned, experience to the team, engagement opprotunities, etc.)
+      placeholder: (ex; lessons learned, experience to the team, engagement opprotunities, etc.)
     validations:
       required: true
   - type: textarea
